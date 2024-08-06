@@ -43,25 +43,37 @@ main {
 
 /* location content style */
 div.dob{
+
+    @media only screen and (max-width: 600px) {
+        width: 100%;
+
+        p.place {
+            margin: 15px auto;
+        }
+        
+    }
         /* width: fit-content;
         margin: auto; */
-        margin: 20px 40px;
+        /* margin: 20px 40px; */
+        margin: 30px 0;
+        width: 30%;
+        
     .country{
         display: flex;
         align-items: center;
         justify-content: center;
        
-        gap: 5px;
+        gap: 15px;
         height:35px;
         h5{
-            font-size: 16px;
+            font-size: 25px;
             color: #145725;
-            font: 900;
+            /* font: 900; */
             margin: 0;
         }
         img{
             width: 60px;
-            height: 20px;
+            height: 30px;
             border: 1px solid #73062B;
         }
         
@@ -69,7 +81,7 @@ div.dob{
     p.place{
         max-width: 300px;
         /* margin: auto; */
-        font-size: 14px;
+        font-size: 18px;
         text-align: center;
         padding: 5px;
         padding-bottom: 5px;
